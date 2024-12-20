@@ -9,58 +9,68 @@
 </head>
 <body>
     <header>
-        <div class="branding"><h1>PR IMPERMEABILIZAÇÕES</h1></div>
+        <div class="container">
+            <div class="branding"><h1>PR IMPERMEABILIZAÇÕES</h1></div>
             <nav>
                 <ul>
                     <li><a href="#aboutUs">Sobre Nós</a></li>
                     <li><a href="#servicos">Serviços</a></li>
                     <li><a href="#contato">Contato</a></li>
-                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#fotos" class="disable">Fotos</a></li>
                 </ul>
             </nav>
+        </div>
     </header>
+    
     <main>
-        <section id="aboutUs">
-            <div class="infoPrImpermeabilizacoes">
-                <h2>Quem somos?</h2>
-                <p>textotextotextotexto</p>
+        <section id="aboutUs" class="container">
+            <h2>Quem somos?</h2>
+            <p>Somos especialistas em impermeabilização, oferecendo soluções de qualidade para proteger sua construção contra infiltrações e umidade.</p>
+        </section>
+
+        <section id="servicos" class="container">
+            <h2>Serviços prestados</h2>
+            <div class="servicos-grid">
+                <div class="servico-item">Impermeabilização de Lajes</div>
+                <div class="servico-item">Tratamento de Infiltrações</div>
+                <div class="servico-item">Impermeabilização de Piscinas</div>
+                <div class="servico-item">Impermeabilização de Terraços</div>
+                <div class="servico-item">Impermeabilização de Fundações</div>
             </div>
         </section>
 
-        <h2>Serviços prestados</h2>
-        <section id="servicos">
-            
-            <div class="teste">
-                1
-            </div>
-            <div class="teste">
-                1
-            </div>
-            <div class="teste">
-                1
-            </div>
-            <div class="teste">
-                1
-            </div>
-            <div class="teste">
-                1
-            </div>
-           
-
+        <section id="contato" class="container">
+            <h2>Entre em Contato</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
         </section>
-
-      
-        <section id="contato">
-            <div id="formContato">
-                <form action="">
-
-                </form>
-            </div>
-        </section>
-
     </main>
-    <footer>
 
+    <footer>
+        <div class="container">
+            <div class="branding"><h2>PR IMPERMEABILIZAÇÕES</h2></div>
+            <div class="contatos">
+                <ul>
+                    <li>Telefone: (85) 98750-0079</li>
+                    <li>Email: paulo_rqn@yahoo.com.br</li>
+                    <li>Endereço: Rua Tiangua 1587 - Fortaleza, CE</li>
+                    <li>Horário: Seg-Sab, 6h-19h</li>
+                </ul>
+            </div>
+        </div>
     </footer>
     
 </body>
