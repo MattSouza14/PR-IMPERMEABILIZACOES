@@ -10,7 +10,7 @@
     --BtnFormColor: #007bff;
     --ServicesColor: #f8f8f8;
     --MainColor: #f4f4f4;
-    --HeaderFooterColor: #3498DB;
+    --HeaderFooterColor: #2e4e63;
     --TextColor: #333;
     --TextCardColor: #333;
 }
@@ -125,7 +125,31 @@ p {
 .servico-item h3 {
     color: var(--TextCardColor);
 }
+/* About section */
+.about {
+    background-color: #ffffff;
+    padding: 4rem 0;
+}
+/* .about-item{
+    
+    
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 2rem;
 
+} */
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 5rem;
+}
+.about-item h3 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.about-item p {
+    text-align: justify;
+}
 
 main .container{
     width: 80%;
@@ -201,6 +225,10 @@ footer .contatos{
    
    gap: 6.0rem;
 }
+footer .list-title{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
 
 
 /* Responsividade */
@@ -269,7 +297,7 @@ footer .contatos{
     }
 
     footer ul {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 }
 
